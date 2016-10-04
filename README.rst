@@ -29,7 +29,7 @@ Example
 
 Using pybloom is very simple, and is similar to using native sets::
 
-    from pybloom import BloomdClient
+    from pybloomd import BloomdClient
 
     # Create a client to a local bloomd server, default port
     client = BloomdClient(["localhost"])
